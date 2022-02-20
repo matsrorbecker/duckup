@@ -1,0 +1,33 @@
+{
+  "name": "duckup",
+  "version": "1.0.0",
+  "description": "Look things up from your terminal using DuckDuckGo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsrorbecker/duckup.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "terminal",
+    "search",
+    "DuckDuckGo"
+  ],
+  "author": "Mats Rörbecker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsrorbecker/duckup/issues"
+  },
+  "homepage": "https://github.com/matsrorbecker/duckup#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "clut": "^1.0.0"
+  },
+  "bin": {
+    "duckup": "./index.js"
+  }
+}
